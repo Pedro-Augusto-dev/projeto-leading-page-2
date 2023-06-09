@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title> Leading Page </title>
+</head>
+
+<body>
+    <div id="nav-bar">
+        <a target="_blank" href="https://ed.escoladnc.com.br"></a><img id="logo" src="./imagens/logo.svg" alt="logo"
+            width="10%">
+        <h1 id="title1">Dê os primeiros passos da<br>
+            sua carreira em Tecnologia</h1>
+        <span id="title-menu">Inscreva-se no curso gratuito de Introdução à<br>
+            Tecnologia da DNC School e aprenda os principais<br>
+            fundamentos para construir experiências efetivas.</span>
+    </div>
+
+    <div id="menu-info">
+        <p class="text"><img src="./imagens/icones/vector.svg" class="menu-info"> Certificado de conclusão</p>
+        <p class="text"><img src="./imagens/icones/vector2.svg" class="menu-info"> 4 horas de conteúdo</p>
+        <p class="text"><img src="./imagens/icones/vector3.svg" class="menu-info"> Aulas online gravadas</li>
+    </div>
+
+    <div id="relatos-socis">
+        <link><iframe width="502" height="283" src="https://www.youtube.com/embed/rdINp5rZgxU"
+            title="Conheça a DNC | Web Série - Episódio #01" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <div id="relatos-info">
+            <h1>Aprenda com especialistas e<br>
+                comece seu primeiro projeto</h1>
+            <p>Conheça o processo de desenvolvimento e entenda como utilizar<br>
+                os principais métodos e ferramentas da área para resolver<br>
+                problemas complexos.
+            </p>
+            <p>
+                Conquiste seu certificado e desenvolva um projeto prático para<br>
+                aplicar seus conhecimentos.
+            </p>
+        </div>
+    </div>
+
+    <div id="carrosel">
+        <div>
+            <h1 id="carrosel-title">Mais de 500 alunos já iniciaram seus estudos</h1>
+        </div>
+        <div id="carrosel-cont">
+            <img
+            class="arrows"
+            onclick="Left()"
+            id="seta-esquerda" 
+            src="./imagens/icones/left.svg" alt="left"> 
+            <img 
+            id="bruna" 
+            src="./imagens/bruna.svg"
+            alt="bruna">
+            <img 
+            id="leonarde" 
+            src="./imagens/leonardo.svg"
+            alt="leonardo">
+            <img 
+            id="samantha"
+            src="./imagens/samantha.svg"
+            alt="samantha">
+            <img 
+            class="arrows"
+            onclick="Right()" id="seta-direita" 
+            src="/imagens/icones/rigth.svg"
+            alt="rigth"> 
+            <!--<div id="carrosel-style">
+            <p>“O curso da DNC School foi o ponto de<br>
+                partida da minha transição de carreira. Hoje<br>
+                já consegui minha primeira vaga na área!”
+            </p>
+            <b class="brunaInf">Bruna, desenvolvedora Front-End</b> 
+            </div>-->
+        </div>
+    </div>
+
+    <div id="formulario">
+        <h1>Comece agora mesmo e dê o próximo passo da sua carreira</h1>
+        <form action="https://api.sheetmonkey.io/form/gRULxvX7k2So1Ao4mBokYN" method="post">
+            <input type="text" placeholder="Nome" name="Name" required></input>
+            <input type="email" placeholder="E-mail" name="Email" required></input>
+            <input type="number" placeholder="Telefone" name="phone" required></input>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <button type="submit">Acesse a ementa grátis</button>
+        </form>
+    </div>
+    <!--<script src="funcao.js"></script>-->
+    <script src="funcao2.js"></script>
+</body>
+
+</html>

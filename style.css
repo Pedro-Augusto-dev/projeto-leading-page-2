@@ -1,0 +1,229 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'inter';
+}
+#nav-bar {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 560px;
+    color: white;
+    background-image: url(imagens/fundo.svg);
+
+
+}   #logo{
+    
+        display: flex;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+    #title1 {
+        display: flex;
+        position: absolute;
+        top: 185px;
+        left: 172px;
+    }
+    #title-menu {
+        display: flex;
+        position: absolute;
+        top: 319px;
+        left: 172px;
+        
+    }
+
+#menu-info {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    
+    
+    background-color:#EAECE5 ;
+    color: #122235;
+
+    font-family: 'inter',sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+
+}   .menu-info{
+        margin-top: 50px;
+        margin-left: 160px;
+        margin-bottom: 50px;
+
+        padding-right:15px;
+        
+    }
+    .menu-info:hover {
+        transform: translateY(-10px);
+        transition-duration: 0.5s;
+    }
+    .text {
+        display: flex;
+        align-items: center;
+    }
+    #relatos-socis {
+        display: flex;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #relatos-socis iframe {
+        margin-left: 270px;
+
+    }
+    #relatos-socis h1 {
+        font-size: 32px;
+        font-family: 'inter',sans-serif;
+        font-weight: 700;
+
+        padding-bottom: 40px;
+
+        color: #247BA0;
+        margin-left: 330px;
+    }
+    #relatos-socis p {
+        margin-left: 330px;
+        padding-bottom: 20px;
+    }
+    #relatos-info{
+        display: flex;
+        flex-direction: column;
+    }
+
+#carrosel {
+    background-color: #247BA0;
+    width: 100%;
+    height: 400px;
+
+    
+    margin-left: 0px;
+    margin-top: 50px;
+}
+    #carrosel-title{
+        color: white;
+        padding: 60px;
+        text-align: center;
+        font-size: 32px;
+        font-family: 'inter',sans-serif;
+        font-weight: 700;
+
+    }
+    #carrosel-cont {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #carrosel img {
+        margin-top: 50px;
+        margin-left: 30px;
+        padding-left: 3px;
+    }
+    #seta-esquerda {
+        display: none;
+    }
+    #samantha {
+        display: none;
+    }
+    .arrows {
+        cursor: pointer;
+    }
+    .arrows:hover {
+        transform:translateY(-10px);
+        transition-duration: 0.3s;
+        
+    }
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#formulario h1 {
+    margin-top: 50px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    width: 413px;
+    height: 53px;
+
+    background-color: #EAECE5;
+    border: none;
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-family: 'inter',sans-serif;
+    font-weight: 400;
+
+    padding: 5px;
+
+    margin-top:39px; 
+    
+}
+
+button {
+    width: 335px;
+    height: 53px;
+
+    /*box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.25);/* inset 0px -3px 0px #247BA0;*/
+    background-color: #247BA0;
+    border: none;
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-family: 'inter',sans-serif;
+    font-weight: 700;
+    color: white ;
+
+    text-align: center;
+    align-items: center;
+
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    transform: translateY( -20px);
+    transition-duration: 1s;
+}
+button:hover {
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    color: #247BA0;
+    border: 1px solid #247BA0;
+}
+/*#carrosel-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 150px;
+
+    background-color: white;
+    margin-left: 400px;
+    margin-top: 50px;
+    border-radius: 16px;
+    
+}
+#carrosel-style {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    padding:  10px;
+}
+#carrosel-info img{
+    border-radius: 50%;
+}
+.brunaInf {
+    padding-top: 15px;
+}
